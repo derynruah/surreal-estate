@@ -1,0 +1,31 @@
+.navbar {
+    display: inline-block;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+.navbar-logo {
+    display: inline-block;
+    padding: 1rem;
+    height: 50px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.title {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.navbar-links {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 2rem;
+}
+
+.navbar-links-item {
+    display: inline-block;
+    margin: 0;
+    padding: 1rem;
+    cursor: pointer;
+}

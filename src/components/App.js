@@ -1,13 +1,10 @@
 import '../styles/app.css'
+import Navbar from './Navbar.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h2> 
-          Surreal Estate
-        </h2>
-      </header>
+      <Navbar />
     </div>
   );
 }
