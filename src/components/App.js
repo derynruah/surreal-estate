@@ -1,10 +1,17 @@
 import '../styles/app.css'
 import Navbar from './Navbar.js';
+import { Routes, Route } from 'react-router-dom';
+import Properties from './Properties';
+import AddProperty from './AddProperty';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
+      <Routes>
+        <Route path='/' element={<Properties />} />
+        <Route path='/add-property' element={<AddProperty />} />
+      </Routes>
     </div>
   );
 }
