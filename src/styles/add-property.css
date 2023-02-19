@@ -1,0 +1,32 @@
+.add-property {
+    padding: 20px;
+}
+
+.add-property>form {
+    margin: 0 auto;
+    max-width: 600px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-property>form>.form-fields {
+    margin-bottom: 15px;
+}
+
+.add-property>form>.form-fields>label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.add-property>form>button {
+    border-radius: 9px;
+    background-color: rgba(115, 63, 115, 0.932);
+    font-family: inherit;
+    border: 0;
+    color: white;
+    padding: 5px;
+}
