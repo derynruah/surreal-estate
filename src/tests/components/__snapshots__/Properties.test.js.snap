@@ -2,8 +2,15 @@
 
 exports[`Properties renders correctly 1`] = `
 <DocumentFragment>
-  <div>
-    Properties Page
+  <div
+    class="properties-header"
+  >
+    <h1>
+      Properties
+    </h1>
+    <div
+      class="properties"
+    />
   </div>
 </DocumentFragment>
 `;

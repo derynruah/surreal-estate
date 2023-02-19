@@ -41,8 +41,15 @@ exports[`renders learn react link 1`] = `
         </li>
       </ul>
     </nav>
-    <div>
-      Properties Page
+    <div
+      class="properties-header"
+    >
+      <h1>
+        Properties
+      </h1>
+      <div
+        class="properties"
+      />
     </div>
   </div>
 </DocumentFragment>

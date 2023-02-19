@@ -1,0 +1,18 @@
+.property-card {
+    background-color: white;
+    padding: 9px;
+}
+
+.property-card>.detail {
+    padding: 9px;
+}
+
+.property-card>.email {
+    text-decoration: none;
+    display: block;
+    color: rgba(115, 63, 115, 0.932);
+    font-weight: bold;
+    padding: 9px;
+    text-align: center;
+    margin-top: 5px;
+}

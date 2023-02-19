@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyCard renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="property-card"
+  >
+    <div
+      class="detail"
+    >
+      <h3>
+        Stub description
+      </h3>
+    </div>
+    <div
+      class="detail"
+    >
+      <em>
+        Stub type - Stub city
+      </em>
+    </div>
+    <div
+      class="detail"
+    >
+      <i
+        class="fas fa-bath"
+      />
+       2
+    </div>
+    <div
+      class="detail"
+    >
+      <i
+        class="fas fa-bed"
+      />
+       5
+    </div>
+    <div
+      class="detail"
+    >
+      <i
+        class="fas fa-pound-sign"
+      />
+       10000
+    </div>
+    <a
+      class="email"
+      href="mailto:stub@email.com"
+    >
+      <i
+        class="fas fa-envelope"
+      />
+       Email
+    </a>
+  </div>
+</DocumentFragment>
+`;
